@@ -38,4 +38,12 @@
 		</plugins>
 	</build>
 
+	<distributionManagement>
+		<repository>
+			<id>github</id>
+			<name>Github Packages</name>
+			<url>https://maven.pkg.github.com/jpmoles/spring-example-actions</url>
+		</repository>
+	</distributionManagement>
+
 </project>
